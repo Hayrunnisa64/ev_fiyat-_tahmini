@@ -29,17 +29,15 @@ Hedef değişken: `median_house_value` (mahalledeki evlerin medyan fiyatı, USD)
 ## Model Karşılaştırması
 | Model | MAE | RMSE | R² |
 |---|---|---|---|
-| Linear Regression | ~ | ~62.808 | ~ |
-| Ridge | ~ | ~62.814 | ~ |
-| Random Forest | ~ | ~54.939 | ~ |
-
-*(Tam değerler notebook çalıştırıldığında Bölüm 15 çıktısında görülebilir.)*
+| Linear Regression | 47.399,98 | 64.300,31 | 0,58 |
+| Ridge | 47.391,73 | 64.288,14 | 0,58 |
+| Random Forest | 38.418,87 | 54.800,13 | 0,70 |
 
 ## En İyi Model
-**Random Forest Regressor**, en düşük RMSE ve en yüksek R² skoruna sahip olduğu için seçilmiştir.
-- Test MAE: ~38.755
-- Test RMSE: ~55.131
-- Test R²: ~0.69
+**Random Forest Regressor**
+- Test MAE: 38.740,33
+- Test RMSE: 55.127,61
+- Test R²: 0,6895
 
 En önemli öznitelikler: `median_income`, `ocean_proximity_INLAND`, `latitude`.
 
