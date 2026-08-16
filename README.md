@@ -74,8 +74,16 @@ Random Forest, doğrusal modellere kıyasla gelir ve konum gibi değişkenler ar
 Modelin R² değeri 0,6895 olduğundan, test verisindeki ev fiyatlarındaki değişimin yaklaşık %69'unu açıklayabildiği görülmektedir. Kalan açıklanamayan kısım; veri setinde bulunmayan konut kalitesi, yenilenme durumu ve benzeri faktörlerden kaynaklanabilir.
 
 ## Kurulum
-
 ```bash
-git clone <repo-linki>
-cd <repo-klasoru>
+git clone https://github.com/Hayrunnisa64/ev_fiyat-_tahmini.git
+cd ev_fiyat-_tahmini
 pip install -r requirements.txt
+```
+
+## Çalıştırma
+1. `ev_fiyati_tahmini_final_odev (2).ipynb` dosyasını Jupyter Notebook, VS Code veya Google Colab ile açın.
+2. Tüm hücreleri baştan sona sırayla çalıştırın (Colab: Çalışma Zamanı → Tümünü Çalıştır).
+3. İnternet bağlantısı gereklidir (veri seti otomatik indirilir).
+
+## Kullanılan Kütüphaneler
+pandas, numpy, matplotlib, seaborn, scikit-learn
