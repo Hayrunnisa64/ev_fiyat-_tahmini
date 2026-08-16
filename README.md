@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ```
 
 ## Çalıştırma
-1. `ev_fiyati_tahmini_final_odev.ipynb` dosyasını Jupyter Notebook, VS Code veya Google Colab ile açın.
+1. `ev_fiyati_tahmini_final_odev.ipynb (2)` dosyasını Jupyter Notebook, VS Code veya Google Colab ile açın.
 2. Tüm hücreleri baştan sona sırayla çalıştırın (Colab: Çalışma Zamanı → Tümünü Çalıştır).
 3. İnternet bağlantısı gereklidir (veri seti otomatik indirilir).
 
